@@ -5,7 +5,7 @@ import PreviewMode from "./PreviewMode/PreviewMode";
 
 const BuilderHeader = () => {
   return (
-    <section className="flex max-md:flex-col justify-between items-center gap-10">
+    <section className="font-[Inter] text-xs flex max-md:flex-col justify-between items-center gap-10">
       <AccountInfo />
       <Features />
       <PreviewMode />

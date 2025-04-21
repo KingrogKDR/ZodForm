@@ -14,7 +14,7 @@ export default function RootGroupLayout({
   return (
     <main>
       {pathname === "/workspace" && <Header element={<WorkspaceHeader />} />}
-      {pathname === "/builder" && <Header element={<BuilderHeader />} />}
+      {pathname.startsWith("/builder/") && <Header element={<BuilderHeader />} />}
       {children}
     </main>
   );
